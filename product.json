@@ -1,6 +1,6 @@
 [
     {
-        "name": "iphone 18",
+        "name": "aphone 18",
         "price": 222234242,
         "company": "apple"
     },
@@ -11,7 +11,7 @@
         "company": "apple"
     },
     {
-        "name": "iphone 12",
+        "name": "bphone 12",
         "price": 223434222,
         "company": "apple"
     },
@@ -22,12 +22,12 @@
         "company": "mi"
     },
     {
-        "name": "iphone 14",
+        "name": "vphone 14",
         "price": 22222,
         "company": "dell"
     },
     {
-        "name": "iphone 15",
+        "name": "cphone 15",
         "price": 22222,
         "featured": true,
         "company": "apple"
