@@ -1,10 +1,11 @@
 // GOAL : create nodejs server using express
 const express = require('express')
+const ConnectDB = require('./db/connect')
 const app = express()
 
 const PORT = process.env.PORT || 5000;
 
-const products_routes = require("./routes/products")
+const products_routes = require("./routes/products");
 
 app.get('/', (req, res) => {
     res.send("server is live")
@@ -15,6 +16,7 @@ app.use("/api/products", products_routes) // http://localhost:5000/api/products
 
 const start = async () => {
     try {
+        await ConnectDB();
         app.listen(PORT, () => {
             console.log(`server is running on port ${PORT}`)
         })
