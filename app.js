@@ -1,5 +1,4 @@
 // GOAL : create nodejs server using express
-require("dotenv").config()
 const express = require('express')
 const ConnectDB = require('./db/connect')
 const app = express()

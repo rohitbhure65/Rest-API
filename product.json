@@ -1,0 +1,41 @@
+[
+    {
+        "name": "iphone 18",
+        "price": 222234242,
+        "company": "apple"
+    },
+    {
+        "name": "iphone 11",
+        "price": 2233222,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone 12",
+        "price": 223434222,
+        "company": "apple"
+    },
+    {
+        "name": "iphone 13",
+        "price": 2222232434,
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "iphone 14",
+        "price": 22222,
+        "company": "dell"
+    },
+    {
+        "name": "iphone 15",
+        "price": 22222,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone 16",
+        "price": 22222,
+        "featured": true,
+        "company": "hp"
+    }
+]
