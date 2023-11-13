@@ -6,6 +6,7 @@ const productJSON = require('./product.json')
 const start = async () => {
     try {
         await ConnectDB();
+        await product.deleteMany()
         await product.create(productJSON)
         console.log("success")
     } catch (error) {
